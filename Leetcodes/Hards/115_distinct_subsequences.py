@@ -12,5 +12,5 @@ class Solution:
                         result[j] += 1
                     else: #check if the prev char is not 0 and if not then add it to the current result
                         result[j] += result[j-1]
-
+        
         return result[-1]
